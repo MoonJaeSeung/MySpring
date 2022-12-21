@@ -4,4 +4,4 @@ public class MemberService {
 }
 
 // 목요일 새벽
-//js1
+//js2

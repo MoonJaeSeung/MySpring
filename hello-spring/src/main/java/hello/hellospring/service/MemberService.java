@@ -11,7 +11,7 @@ import java.util.Optional;
 // 어노테이션을 해줌으로써 이 클래스를 스프링 컨테이너에 Service class로 등록한다
 
 public class MemberService {
-    private final MemberRepository memberRepository;
+    @Autowired private final MemberRepository memberRepository;
 
     @Autowired
     public MemberService(MemberRepository memberRepository){
